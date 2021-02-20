@@ -42,6 +42,7 @@ public class Main extends Application {
 
 	TextField tfs[] = new TextField[informationAreaCount];
 	String stringText = "";
+<<<<<<< refs/remotes/origin/main
 //	TextField tfID = new TextField(); 
 //	TextField tfSearch = new TextField(); 
 //	TextField tfName = new TextField(); 
@@ -49,6 +50,8 @@ public class Main extends Application {
 //	TextField tfCity = new TextField(); 
 //	TextField tfGender = new TextField(); 
 //	TextField tfZip = new TextField(); 
+=======
+>>>>>>> commit
 
 	//Buttons
 	Button buttons[] = new Button[8];
@@ -63,6 +66,7 @@ public class Main extends Application {
 			"CleanTextFields",
 			
 	};
+<<<<<<< refs/remotes/origin/main
 //	Button btAdd = new Button ("Add");
 //	Button btFirst = new Button ("First");
 //	Button btNext = new Button ("Next");
@@ -72,6 +76,9 @@ public class Main extends Application {
 //	Button btSearvhById = new Button ("SearvhByID");
 //	Button btClean = new Button ("Clean textFields");
 //	
+=======
+
+>>>>>>> commit
 	//Labels
 	Label lbs[] = new Label[informationAreaCount];
 	
@@ -88,6 +95,7 @@ public class Main extends Application {
 	
 	
 	
+<<<<<<< refs/remotes/origin/main
 //	Label lbID = new Label("ID");
 //	Label lbSearch = new Label("Search/Update ID");
 //	Label lbName = new Label("Name");
@@ -96,6 +104,8 @@ public class Main extends Application {
 //	Label lbgender= new Label("Gender");
 //	Label lbZip = new Label("Zip");
 	
+=======
+>>>>>>> commit
 	
 	public Main() {
 		for (int i = 0; i < lbs.length; i++) {

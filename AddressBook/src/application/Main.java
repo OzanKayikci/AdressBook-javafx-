@@ -42,16 +42,7 @@ public class Main extends Application {
 
 	TextField tfs[] = new TextField[informationAreaCount];
 	String stringText = "";
-<<<<<<< refs/remotes/origin/main
-//	TextField tfID = new TextField(); 
-//	TextField tfSearch = new TextField(); 
-//	TextField tfName = new TextField(); 
-//	TextField tfStreet = new TextField(); 
-//	TextField tfCity = new TextField(); 
-//	TextField tfGender = new TextField(); 
-//	TextField tfZip = new TextField(); 
-=======
->>>>>>> commit
+
 
 	//Buttons
 	Button buttons[] = new Button[8];
@@ -66,19 +57,7 @@ public class Main extends Application {
 			"CleanTextFields",
 			
 	};
-<<<<<<< refs/remotes/origin/main
-//	Button btAdd = new Button ("Add");
-//	Button btFirst = new Button ("First");
-//	Button btNext = new Button ("Next");
-//	Button btPrevious = new Button ("Previous");
-//	Button btLast = new Button ("Last");
-//	Button btUpdateById = new Button ("UpdateByID");
-//	Button btSearvhById = new Button ("SearvhByID");
-//	Button btClean = new Button ("Clean textFields");
-//	
-=======
 
->>>>>>> commit
 	//Labels
 	Label lbs[] = new Label[informationAreaCount];
 	
@@ -95,17 +74,6 @@ public class Main extends Application {
 	
 	
 	
-<<<<<<< refs/remotes/origin/main
-//	Label lbID = new Label("ID");
-//	Label lbSearch = new Label("Search/Update ID");
-//	Label lbName = new Label("Name");
-//	Label lbStreet = new Label("Street");
-//	Label lbCity = new Label("City");
-//	Label lbgender= new Label("Gender");
-//	Label lbZip = new Label("Zip");
-	
-=======
->>>>>>> commit
 	
 	public Main() {
 		for (int i = 0; i < lbs.length; i++) {
@@ -141,7 +109,7 @@ public class Main extends Application {
 			tfs[6].setPrefColumnCount(zipSize);
 			
 			Alert alert = new Alert (AlertType.INFORMATION);
-			alert.setTitle("Ýnformation Dialog");
+			alert.setTitle("Ãnformation Dialog");
 			alert.setHeaderText("Look, an Information Dialog");
 			
 			GridPane p1 = new GridPane();
